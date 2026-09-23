@@ -21,3 +21,11 @@ nav ul{
     display: flex;
     flex-direction: column;
 }
+
+main{
+   max-width: 70%;
+}
+
+header{
+    text-align: left;
+}
