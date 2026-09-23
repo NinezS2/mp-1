@@ -116,7 +116,7 @@ p, li, a{
     nav ul{
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 5px;
+        gap: 2px;
         justify-content: center;
     }
     nav li{
