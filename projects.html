@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -32,9 +35,32 @@
             </main>
         </div>
 
+        <div class="calculator">
+            <h3>Calculator</h3>
+
+            <label for="first-number">First Number:</label>
+            <input type="text" id="first-number">
+
+            <label for="second-number">Second Number:</label>
+            <input type="text" id="second-number">
+
+            <div class="calculator-buttons">
+                <button onclick="addition()">+</button>
+                <button onclick="subtraction()">-</button>
+                <button onclick="multiplication()">*</button>
+                <button onclick="division()">/</button>
+                <button onclick="power()">**</button>
+                <button onclick="clearCalculator()">Clear</button>
+            </div>
+
+            <h3 id="output"></h3>
+        </div>
+
         <footer>
             <p>&copy; All Rights Reserved by Nova. <a href="#">Credits</a></p>
         </footer>
     </div>
+
+<script src="calc.js"></script>
 </body>
 </html>
