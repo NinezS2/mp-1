@@ -71,15 +71,20 @@ p{
 }
 
 .calculator{
-    margin-top: 40px;
+    margin-top: 30px;
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .calculator input {
     padding: 10px;
     margin: 5px;
     max-width: 200px;
+    display: block;
+}
+
+.calculator label{
+    display: block;
 }
 
 .calculator-buttons{
