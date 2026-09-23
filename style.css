@@ -12,7 +12,7 @@
 }
 
 nav {
-    width: 30%
+    width: 30%;
 }
 
 nav ul{
@@ -24,6 +24,7 @@ nav ul{
 
 main{
    max-width: 70%;
+    height: 100vh;
 }
 
 header{
