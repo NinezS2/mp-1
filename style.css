@@ -41,13 +41,13 @@ body{
 
 main{
    max-width: 70%;
-    height: 100vh;
+    height: 2000vh;
     padding: 20px;
     background-color: #f8f4fb;
 }
 
 img {
-    max-width: 30%;
+    max-width: 50%;
     height: auto;
 }
 
