@@ -65,8 +65,12 @@ p, li, a{
     font-size: calc(14px + 0.2vw);
 }
 
+p{
+    margin-bottom: 3px;
+}
+
 .calculator{
-    margin-top: 30px;
+    margin-top: 40px;
     padding: 20px;
     text-align: center;
 }
