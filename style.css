@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page-wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+#container{
+    display: flex;
+}
+
+nav {
+    width: 30%
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
